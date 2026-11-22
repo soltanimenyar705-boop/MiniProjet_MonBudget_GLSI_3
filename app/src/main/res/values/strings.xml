@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mon Budget</string>
+    <string name="hello_user">Bonjour %1$s</string>
+    <string name="votre_budget">Votre budget du mois</string>
+    <string name="solde_du_mois">Solde du mois</string>
+    <string name="sur_budget">sur 550 DT de budget</string>
+    <string name="total_fmt">Total : %.2f DT</string>
+    <string name="solde_fmt">Solde : %.2f DT</string>
+    <string name="budget_fmt">Budget : %.2f DT</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="categories">CATÉGORIES</string>
+    <string name="reglages">RÉGLAGES</string>
+    <string name="theme_sombre">Thème sombre</string>
+    <string name="nom_utilisateur">Nom d\'utilisateur</string>
+</resources>
