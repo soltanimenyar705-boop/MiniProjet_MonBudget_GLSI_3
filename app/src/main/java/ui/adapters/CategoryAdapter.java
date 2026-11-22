@@ -1,5 +1,5 @@
 package tn.isim.monbudget.ui.adapters;
-
+// Sprint 2 - Dépenses
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
