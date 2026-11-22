@@ -44,7 +44,12 @@ public class CategoryListActivity extends AppCompatActivity {
         b.recycler.setLayoutManager(new LinearLayoutManager(this));
         b.recycler.setAdapter(adapter);
 
-        // On observe le LiveData avec les totaux
+        // Traduction du panneau de droite (uniquement s'il existe)
+        if (b.tvGlobalTitle != null) {
+            b.tvGlobalTitle.setText(Langue.t(this, "Solde du mois", "Monthly balance"));
+            b.tvGlobalSubtitle.setText(Langue.t(this, "sur 550 DT de budget", "of 550 DT budget"));
+        }
+
         vm.allWithTotals.observe(this, categories -> {
             adapter.submitList(categories);
 
