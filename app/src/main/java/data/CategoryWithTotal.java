@@ -1,5 +1,5 @@
 package tn.isim.monbudget.data;
-
+// Sprint 1 - Entité Category
 import androidx.room.Embedded;
 import tn.isim.monbudget.data.entity.Category;
 
