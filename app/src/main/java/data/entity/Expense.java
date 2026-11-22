@@ -1,5 +1,5 @@
 package tn.isim.monbudget.data.entity;
-
+// Sprint 1 - Expense
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
